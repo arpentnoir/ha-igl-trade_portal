@@ -76,7 +76,7 @@ services:
 
       OPEN_ATTESTATION_ENDPOINT: http://open-attestation-api:9090
 
-      BLOCKCHAIN_FALLBACK_ENDPOINT: http://tradetrust-ganache-cli:8585
+      FALLBACK_BLOCKCHAIN_ENDPOINT: http://tradetrust-ganache-cli:8585
       BLOCKCHAIN_ENDPOINT: http://tradetrust-ganache-cli:8585
       BLOCKCHAIN_GAS_PRICE: fast
       BLOCKCHAIN_GAS_PRICE_REFRESH_RATE: 10
